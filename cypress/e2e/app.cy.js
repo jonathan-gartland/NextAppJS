@@ -5,7 +5,6 @@
 
 // Cypress E2E Test
 describe('Navigation', () => {
-
   it('passes this test', () => {
     expect(1).equal(1);
   });
@@ -13,8 +12,7 @@ describe('Navigation', () => {
   it('passes this test too', () => {
     expect(2).equal(2);
   });
-
 });
 
 // Prevent TypeScript from reading file as legacy script
-export {}
+export {};
