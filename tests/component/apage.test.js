@@ -1,4 +1,4 @@
-import Page from '../src/app/apage';
+import Page from '../../src/app/apage';
 import '@testing-library/jest-dom';
 import { /*fireEvent,*/ render, screen } from '@testing-library/react';
 import { expect, describe, test } from '@jest/globals';
