@@ -11,7 +11,8 @@
     "test:w": "jest --watch",
     "test": "jest",
     "wdio": "wdio run ./tests/wdio-config/wdio.conf.js",
-    "test:e2e": "npm run wdio"
+    "test:e2e": "npm run wdio",
+    "test:tt": " npm run test; npm run test:e2e"
   },
   "dependencies": {
     "husky": "^8.0.3",
