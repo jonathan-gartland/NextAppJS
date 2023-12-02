@@ -1,4 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+I've set up style checks with prettier/eslint
+and component/unit testing with jest. Saving this as a baseline project in a branch called starter.
+with e2e tests added in branches for demo purposes. All app development will in dev branch then merged directly here,
+e2e will be kept separate in branches
 
 ## Getting Started
 
