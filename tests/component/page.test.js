@@ -18,4 +18,14 @@ describe('adding a passing test to project', () => {
     render(<Page />);
     expect(screen.getByTestId('next-image-testid')).toBeInTheDocument();
   });
+
+  test('page test', async () => {
+    render(<Page />);
+    expect(screen.getByText('Get started by editing')).toBeInTheDocument();
+  });
+
+  test('page test', async () => {
+    render(<Page />);
+    expect(screen.getByText('Deploy')).toBeInTheDocument();
+  });
 });
