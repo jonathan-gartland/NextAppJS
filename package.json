@@ -9,7 +9,7 @@
     "lint": "next lint",
     "prepare": "husky install",
     "test:w": "jest --watch",
-    "test": "jest",
+    "test": "jest tests/",
     "test:e2e": "playwright test"
   },
   "dependencies": {
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
+    "@playwright/test": "^1.40.1",
     "@testing-library/jest-dom": "^6.1.5",
     "@testing-library/react": "^14.1.2",
     "@types/node": "^20.10.2",
