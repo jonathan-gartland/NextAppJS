@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test:w": "jest --watch",
+    "test": "jest"
   },
   "dependencies": {
     "husky": "^8.0.3",
