@@ -1,9 +1,10 @@
-import Page from '../../src/app/apage';
+import Page from '@/app/page';
 import '@testing-library/jest-dom';
 import { /*fireEvent,*/ render, screen } from '@testing-library/react';
-import { expect, describe, test } from '@jest/globals';
+import { expect, describe, test, beforeAll } from '@jest/globals';
 
 describe('adding a passing test to project', () => {
+  beforeAll(() => {});
   test('passes', async () => {
     await expect(1).toEqual(1);
   });
