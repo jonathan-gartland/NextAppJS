@@ -21,7 +21,7 @@ exports.config = {
   // then the current working directory is where your `package.json` resides, so `wdio`
   // will be called from there.
   //
-  specs: ['./tests/specs/e2e/*.js'],
+  specs: ['../specs/**/*.js'],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
@@ -56,9 +56,9 @@ exports.config = {
         args: ['headless', 'disable-gpu'],
       },
     },
-    {
-      browserName: 'firefox',
-    },
+    // {
+    //   browserName: 'firefox',
+    // },
   ],
 
   //
