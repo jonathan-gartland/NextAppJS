@@ -10,7 +10,8 @@
     "prepare": "husky install",
     "test:w": "jest --watch",
     "test": "jest",
-    "wdio": "wdio run ./wdio.conf.js"
+    "wdio": "wdio run ./tests/wdio-config/wdio.conf.js",
+    "test:e2e": "npm run wdio"
   },
   "dependencies": {
     "husky": "^8.0.3",
