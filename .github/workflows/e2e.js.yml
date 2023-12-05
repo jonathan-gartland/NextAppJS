@@ -1,5 +1,8 @@
 name: End-to-end tests
 on: push
+
+env:
+  PROD_URL: https://jonathan-gartland.github.io/practice-pages
 jobs:
   cypress-run:
     runs-on: ubuntu-22.04
