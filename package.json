@@ -8,9 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "test:w": "jest --watch",
-    "test": "jest",
-    "test:e2e": "cypress run"
+    "test": "cypress run"
   },
   "dependencies": {
     "husky": "^8.0.3",
